@@ -1,0 +1,24 @@
+{
+  "cssrs" : {
+    "none" : "",
+    "zeroshot_cot" : "The post is given below. Let’s think step by step\n\n",
+    "zeroshot_ecot" : "Follow the steps to analyze the mental state in the post. Let’s think step by step.\nStep1: Describe the content of the post.\nStep2: Identify what situation the writer is going through.\nStep3: Consider how the writer’s mental health can be impacted.\nStep4: Search for suicidal cues.\n\n",
+    "fewshot_icl" : "Post: {context}\nChoices : {label_list}\nLabel : {label_text}\n\n",
+    "fewshot_cot" : " 내용"
+  },
+  "dreaddit" : {
+    "none" : "",
+    "zeroshot_cot" : "The post is given below. Let’s think step by step\n\n",
+    "zeroshot_ecot" : "Follow the steps to analyze the mental state in the post. Let’s think step by step.\nStep1: Describe the content of the post.\nStep2: Identify what situation the writer is going through.\nStep3: Consider how the writer’s mental health can be impacted.\nStep4: Search for stress cues.\n\n",
+    "fewshot_icl" : "Post: {context}\nQuestion: \"Does the poster suffers from stress?\"\nChoices : {label_list}\nLabel : {label_text}\n\n",
+    "fewshot_cot" : " 내용"
+  },
+  "sdcnl" : {
+    "none" : "",
+    "zeroshot_cot" : "The post is given below. Let’s think step by step\n\n",
+    "zeroshot_ecot" : "Follow the steps to analyze the mental state in the post. Let’s think step by step.\nStep1: Describe the content of the post.\nStep2: Identify what situation the writer is going through.\nStep3: Consider how the writer’s mental health can be impacted.\nStep4: Search for depression or suicidal cues.\n\n",
+    "fewshot_icl" : "Post: {context}\nChoices : {label_list}\nLabel : {label_text}\n\n",
+    "fewshot_cot" : " 내용"
+  }
+}
+

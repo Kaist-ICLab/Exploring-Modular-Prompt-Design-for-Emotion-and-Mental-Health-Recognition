@@ -1,0 +1,30 @@
+{
+      "none": "",
+      "emobench": {
+
+            "base": "Analyze the scenario, paying close attention to the emotions the subject is experiencing, and select the correct answer to the question.",
+            "gpt1": "Evaluate the situation by focusing on the emotions the subject is feeling and choose the appropriate answer to the question.",
+            "gpt2": "Carefully assess the scenario, emphasizing the emotions the subject is going through, and pick the right answer to the question.",
+            "gpt3": "Examine the situation, with particular attention to the subject's emotions, and select the correct response to the question.",
+            "gpt4": "Analyze the scene by concentrating on the emotions being experienced by the subject, and determine the correct answer to the question.",
+            "gpt5": "Observe the scenario, giving special consideration to the subject's emotions, and choose the accurate answer to the question.",
+            "Simple" : "Look at the situation, notice how the person feels, and pick the right answer to the question.",
+            "Moderate": "Carefully review the scenario, focusing on the emotions the subject displays, and then choose the most appropriate answer to the question based on your analysis.",
+            "Advanced": "Conduct a thorough analysis of the given scenario, emphasizing the nuanced emotional states exhibited by the subject. Utilize your understanding of emotional dynamics to discern the most accurate response to the posed question, taking into account all relevant psychological and contextual factors.",
+            "Clear" : "Review the scenario, note the emotions the subject is feeling, and choose the right answer to the question.",
+            "EmDe" : " Immerse yourself in the scenario, attentively observing the waves of emotion the subject is experiencing. Let the depth of these feelings guide you as you select the answer that truly resonates with the emotional core of the situation.",
+            "Ana" : "Conduct a thorough analysis of the scenario, with a particular focus on the subject's affective states and emotional responses. Apply your understanding of psychological principles to identify the most accurate answer, ensuring that your choice reflects a nuanced interpretation of the subject’s emotional and cognitive processes."
+
+      },
+      "goemotion":{
+            "base" : "Analyze the Reddit post, focusing on the emotions expressed, and select the emotion label that best represents the overall sentiment of the post.",
+            "Clear": "Read the Reddit post, identify the emotions expressed, and choose the emotion label that best matches the overall sentiment.",
+            "EmDe" : "Delve into the Reddit post, paying close attention to the emotional undertones and expressive language. Feel the intensity of the emotions conveyed, and select the emotion label that most accurately captures the heart of the sentiment.",
+            "Ana" : "Analyze the Reddit post with a focus on identifying and categorizing the emotional expressions. Utilize psychological frameworks to determine the most appropriate emotion label that encapsulates the overarching sentiment of the post, considering both explicit and nuanced emotional cues."
+      }
+
+}
+
+
+
+

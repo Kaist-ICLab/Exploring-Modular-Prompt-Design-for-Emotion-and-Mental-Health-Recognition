@@ -1,0 +1,19 @@
+"task_explanation" : {
+    "none": "",
+    "iemocap": {
+      "domain_enhanced": "Analyze and focus on the emotions that arise in the given conversation. The conversation is a transcript of two speakers, each index representing one utterance. Examine the emotions that arise in each utterance throughout the conversation. Select one emotion label for each utterance.\n"
+      "emobench_eu": {
+        "general": "Analyze the scenario and select one correct answer to the question.\n",
+        "domain_enhanced": "Analyze the scenario and select one correct answer to the question. Focus on the emotions that the subject is feeling.\n"
+      },
+      "goemotion": {
+        "general": "Analyze the text and select one label that best represents the text.\n",
+        "domain_enhanced": "Analyze the Reddit post and select one emotion label that best represents the post. Focus on the emotions that emerge in the post.\n"
+      }
+    },
+    "label_definition": {
+      "iemocap": "\nBelow are definitions of each label.\n\n#Angry: feeling or showing anger\n#Excited: having, showing, or characterized by a heightened state of energy, enthusiasm, eagerness\n#Fear: an unpleasant often strong emotion caused by anticipation or awareness of danger\n#Sad: affected with or expressive of grief or unhappiness\n#Surprised: feeling or showing surprise because of something unexpected\n#Frustrated: feeling discouragement, anger, and annoyance because of unresolved problems or unfulfilled goals, desires, or needs\n#Happy:  enjoying or characterized by well-being and contentment\n#Disappointed: defeated in expectation or hope\n#Neutral: not decided or pronounced as to characteristics.\n\n",
+      "emobech_eu": "",
+      "goemotion": "\nBelow are the definitions of each label.\n\n#admiration: Finding something impressive or worthy of respect. \n#amusement: Finding something funny or being entertained. \n#anger: A strong feeling of displeasure or antagonism. \n#annoyance: Mild anger, irritation. \n#approval: Having or expressing a favorable opinion. \n#caring: Displaying kindness and concern for others. \n#confusion: Lack of understanding, uncertainty. \n#curiosity: A strong desire to know or learn something. \n#desire: A strong feeling of wanting something or wishing for something to happen.\n#disappointment: Sadness or displeasure caused by the nonfulfillment of one’s hopes or expectations. \n#disapproval: Having or expressing an unfavorable opinion. \n#disgust: Revulsion or strong disapproval aroused by something unpleasant or offensive. \n#embarrassment: Self-consciousness, shame, or awkwardness. \n#excitement: Feeling of great enthusiasm and eagerness. \n#fear: Being afraid or worried. \n#gratitude: A feeling of thankfulness and appreciation. \n#grief: Intense sorrow, especially caused by someone’s death. \n#joy: A feeling of pleasure and happiness. \n#love: A strong positive emotion of regard and affection. \n#nervousness: Apprehension, worry, anxiety. \n#optimism: Hopefulness and confidence about the future or the success of something. \n#pride: Pleasure or satisfaction due to ones own achievements or the achievements of those with whom one is closely associated. \n#realization: Becoming aware of something. \n#relief: Reassurance and relaxation following release from anxiety or distress. \n#remorse: Regret or guilty feeling. \n#sadness: Emotional pain, sorrow. \n#surprise: Feeling astonished, startled by something unexpected.\n\n"
+    }
+  }

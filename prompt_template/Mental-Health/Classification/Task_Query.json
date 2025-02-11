@@ -1,0 +1,21 @@
+{
+    "none": "",
+    "dreaddit": {
+        "base" : "Analyze the post, paying close attention to the writer's mental state, emotional expressions, and underlying thoughts. Based on this analysis, respond to the following question with a definitive “yes” or “no”.",
+        "Clear" : "Read the post, focus on the writer’s mental state and emotions, and answer the question with a clear “yes” or “no”.",
+        "EmDe" : "Immerse yourself in the post, deeply sensing the writer’s emotional state, their mental turmoil, and the underlying thoughts that guide their feelings. Let this emotional insight inform your response, answering the question with a definitive “yes” or “no”.",
+        "Ana" : "Conduct a thorough assessment of the post, analyzing the writer’s mental state, emotional expressions, and cognitive processes. Using clinical reasoning and psychological insight, determine the most appropriate answer to the question, responding with a precise “yes” or “no”."
+    },
+    "sdcnl":{
+        "base" : "Analyze the post, focusing on the writer's mental state, emotional expressions, and underlying thoughts. Based on this analysis, determine whether the writer is experiencing depression or is suicidal. Provide your answer as either \"suicidal\" or \"depression\".",
+        "Clear" : "Read the post, focus on the writer's mental state and emotions, and decide if they are \"suicidal\" or experiencing \"depression.\"",
+        "EmDe" : "Carefully examine the post, tuning into the writer’s emotional depth, mental struggles, and the underlying despair in their thoughts. Use this emotional insight to determine whether the writer is \"suicidal\" or suffering from \"depression.\"",
+        "Ana" : "Perform a detailed analysis of the post, evaluating the writer’s mental state, emotional expressions, and cognitive patterns. Utilize your psychological expertise to accurately diagnose whether the writer’s condition is indicative of \"depression\" or \"suicidal\" ideation, and provide your answer accordingly."
+    },
+    "cssrs":{
+        "base" : "Analyze the post, paying close attention to the writer's mental state, emotional expressions, and underlying thoughts. Based on this analysis, select the most appropriate suicide severity scale that accurately reflects the writer's mental condition.",
+        "Clear" : "Read the post, focus on the writer’s mental state and emotions, and choose the suicide severity scale that best matches their condition.\n",
+        "EmDe" : "Immerse yourself in the post, paying close attention to the writer's emotional turmoil, mental state, and the underlying thoughts that reveal their struggles. Let this emotional understanding guide you in selecting the suicide severity scale that most accurately reflects their mental condition.",
+        "Ana" : "Conduct a comprehensive assessment of the post, focusing on the writer’s mental state, affective expressions, and cognitive processes. Utilize established psychological frameworks to determine the most appropriate suicide severity scale, ensuring it accurately reflects the writer’s current mental condition and risk level."
+    }
+}

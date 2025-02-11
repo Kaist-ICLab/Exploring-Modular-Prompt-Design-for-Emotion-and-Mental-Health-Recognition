@@ -1,0 +1,21 @@
+{
+  "iemocap" : {
+    "none" : "",
+    "zeroshot_cot" : "The conversation is given below. Let’s think step by step.\n",
+    "zeroshot_ecot" : " 내용",
+    "fewshot_icl" : "Conversation: \"{context}\"\nChoices: \"{label_list}\"\nLabel: \"{label_text}\"\n\n"
+  },
+  "emobench" : {
+    "none" : "",
+    "zeroshot_cot" : "The scenario and question are given below. Let’s think step by step.\n",
+    "zeroshot_ecot" : "Follow the steps to analyze the emotions in the content. Let’s think step by step.\nStep1: Describe the content of the scenario.\nStep2: Identify what situation {subject} is going through.\nStep3: Consider how  {subejct} can be impacted emotionally.\nStep4: Search for emotional cues.\n\n",
+    "fewshot_icl" : "Scenario: {context}\nQuestion: What emotion would \"{subject}\" ultimately feel in this situation?\nChoices: \"{label_list}\"\nLabel: \"{label_text}\"\n\n"
+  },
+  "goemotion" : {
+    "none" : "",
+    "zeroshot_cot" : "The post is given below. Let’s think step by step.\n",
+    "zeroshot_ecot" : "Follow the steps to analyze the emotions in the content. Let’s think step by step.\nStep1: Describe the content of the post.\nStep2: Identify what situation the writer is going through.\nStep3: Consider how the writer can be impacted emotionally.\nStep4: Search for emotional cues.\n\n",
+    "fewshot_icl" : "Post: {context}\nChoices: \"{label_list}\"\nLabel: \"{label_text}\"\n\n"
+  }
+}
+

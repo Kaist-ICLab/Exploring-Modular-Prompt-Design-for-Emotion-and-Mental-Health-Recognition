@@ -1,0 +1,6 @@
+{
+  "iemocap" : "Conversation: \"{context}\"\n\nChoices: \"{label_list}\"\n\n",
+  "emobench" : "Scenario: {context}\nQuestion: What emotion would \"{subject}\" ultimately feel in this situation?\nChoices: \"{label_list}\"",
+  "goemotion" : "Post: {context}\nChoices: \"{label_list}\""
+
+}

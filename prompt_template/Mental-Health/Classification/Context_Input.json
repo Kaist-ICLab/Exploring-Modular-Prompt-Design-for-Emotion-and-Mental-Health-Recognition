@@ -1,0 +1,5 @@
+{
+  "cssrs" : "Post: {context}\nChoices : “{label_list}”",
+  "dreaddit" : "Post: {context}\nnQuestion: \"Does the poster suffers from stress?\"\nChoices : “{label_list}”",
+  "sdcnl" : "Post: {context}\nChoices : “{label_list}”"
+}

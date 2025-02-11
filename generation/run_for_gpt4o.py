@@ -1,5 +1,4 @@
 import subprocess
-import sys
 
 model_parameters = ['GPT4o']
 
@@ -15,46 +14,46 @@ tasks = [
         'SI': 'persona-none',
         'PS_base': 'emobench'
     },
-    # {
-    #     'data_task': 'Emotion',
-    #     'problem_task': 'Classification',
-    #     'data': 'goemotion',
-    #     'TQ': ['goemotion-Clear', 'goemotion-EmDe', 'goemotion-Ana'],
-    #     'CT': 'goemotion',
-    #     'OI': 'goemotion',
-    #     'SI': 'persona-none',
-    #     'PS_base': 'goemotion'
-    # },
-    # {
-    #     'data_task': 'Mental-Health',
-    #     'problem_task': 'Classification',
-    #     'data': 'dreaddit',
-    #     'TQ': ['dreaddit-Clear', 'dreaddit-EmDe', 'dreaddit-Ana'],
-    #     'CT': 'dreaddit',
-    #     'OI': 'dreaddit',
-    #     'SI': 'persona-none',
-    #     'PS_base': 'dreaddit'
-    # },
-    # {
-    #     'data_task': 'Mental-Health',
-    #     'problem_task': 'Classification',
-    #     'data': 'cssrs',
-    #     'TQ': ['cssrs-Clear', 'cssrs-EmDe', 'cssrs-Ana'],
-    #     'CT': 'cssrs',
-    #     'OI': 'cssrs',
-    #     'SI': 'persona-none',
-    #     'PS_base': 'cssrs'
-    # },
-    # {
-    #     'data_task': 'Mental-Health',
-    #     'problem_task': 'Classification',
-    #     'data': 'sdcnl',
-    #     'TQ': ['sdcnl-Clear', 'sdcnl-EmDe', 'sdcnl-Ana'],
-    #     'CT': 'sdcnl',
-    #     'OI': 'sdcnl',
-    #     'SI': 'persona-none',
-    #     'PS_base': 'sdcnl'
-    # }
+    {
+        'data_task': 'Emotion',
+        'problem_task': 'Classification',
+        'data': 'goemotion',
+        'TQ': ['goemotion-Clear', 'goemotion-EmDe', 'goemotion-Ana'],
+        'CT': 'goemotion',
+        'OI': 'goemotion',
+        'SI': 'persona-none',
+        'PS_base': 'goemotion'
+    },
+    {
+        'data_task': 'Mental-Health',
+        'problem_task': 'Classification',
+        'data': 'dreaddit',
+        'TQ': ['dreaddit-Clear', 'dreaddit-EmDe', 'dreaddit-Ana'],
+        'CT': 'dreaddit',
+        'OI': 'dreaddit',
+        'SI': 'persona-none',
+        'PS_base': 'dreaddit'
+    },
+    {
+        'data_task': 'Mental-Health',
+        'problem_task': 'Classification',
+        'data': 'cssrs',
+        'TQ': ['cssrs-Clear', 'cssrs-EmDe', 'cssrs-Ana'],
+        'CT': 'cssrs',
+        'OI': 'cssrs',
+        'SI': 'persona-none',
+        'PS_base': 'cssrs'
+    },
+    {
+        'data_task': 'Mental-Health',
+        'problem_task': 'Classification',
+        'data': 'sdcnl',
+        'TQ': ['sdcnl-Clear', 'sdcnl-EmDe', 'sdcnl-Ana'],
+        'CT': 'sdcnl',
+        'OI': 'sdcnl',
+        'SI': 'persona-none',
+        'PS_base': 'sdcnl'
+    }
 ]
 
 
@@ -85,7 +84,7 @@ def generate_commands(max_rows=200):
 
 def run_command_for_model(model, commands):
     for command in commands:
-        full_command = [sys.executable, 'systematic_evaluation.py', '--models', model] + command
+        full_command = ['python', 'systematic_evaluation.py', '--models', model] + command
         print(f"Running command for model {model}: {' '.join(full_command)}")
 
         try:

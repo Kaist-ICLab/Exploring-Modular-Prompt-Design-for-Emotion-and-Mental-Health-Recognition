@@ -116,13 +116,12 @@ pip install google.generativeai
 If you find this work or our code useful, please consider citing:
 
 ```
-TEMP article
-
-@article{"",
-  title={},
-  author={},
-  journal={},
-  year={}
+@inproceedings{kim2025exploring,
+  title={Exploring Modular Prompt Design for Emotion and Mental Health Recognition},
+  author={Kim, Minseo and Kim, Taemin and Vo, Thu Hoang Anh and Jung, Yugyeong and Lee, Uichin},
+  booktitle={Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems},
+  pages={1--18},
+  year={2025}
 }
 ```
 
